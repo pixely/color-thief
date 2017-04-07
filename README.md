@@ -1,5 +1,7 @@
 # Color Thief
 
+[![Build Status](https://travis-ci.org/pixely/color-thief.svg?branch=master)](https://travis-ci.org/pixely/color-thief)
+
 A script for grabbing the color palette from an image. Uses Javascript and the canvas tag to make it happen.
 
 [See a Demo](http://lokeshdhakar.com/projects/color-thief) | [Read more on my blog](http://lokeshdhakar.com/color-thief)
@@ -30,4 +32,10 @@ colorThief.getPalette(sourceImage, 8);
 ```js
 getPalette(sourceImage[, colorCount, quality])
 returns [ [num, num, num], [num, num, num], ... ]
+```
+
+Amended from the original to allow this to be imported
+
+```js
+require('color-thief');
 ```
